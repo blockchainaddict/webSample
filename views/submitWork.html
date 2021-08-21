@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iBrand</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo_name">
+                <div class="logo"><img src="img/tea11.png" alt="logo"></div>
+                <h1 id="nav_name">iBrand</h1>
+            </div>
+            <div class="space_generator"></div>
+            <ul class="menu_items">
+                <li> <a href="./">Home</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner_submit">
+            <div class="left_banner">
+                <div class="intro">
+                    <h1>Create new item</h1>
+                    <h3>Image, Video, Audio, or 3D Model</h3> 
+                    <p>File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV, OGG, GLB, GLTF. Max size: 40 MB</p>
+                </div>
+
+                <div class="submit_form_container">
+                    <form class="submit_form" action="submit">
+                        <label for="file_submit">Upload your file</label>
+                        <input type="file" id="file_submit">
+                        <label for="item_name">Item Name</label>
+                        <input type="text" name="item_name" id="item_name">
+                        <label for="description">Description</label>
+                        <input type="text" name="description" id="description">
+                        <label for="submit">Submit</label>
+                        <input type="submit" name="submit" id="submit">
+                    </form>
+                    
+                </div>
+            </div>          
+        </div>
+    </main>
