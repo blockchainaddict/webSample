@@ -348,11 +348,11 @@ footer{
         top: -500px;
     }
     .menu_items.active{
-        margin: 10px;
         font-size: 0.8em;
         display: grid;
         position: absolute;
         top: 5px;
+        right: 10vw;
     }
     
     .banner{
